@@ -2,21 +2,17 @@
 //randomly return either 'rock', 'paper', or 'scissors'
 // Use math.floor to generate 1-3 numbers, assign the numbers a symbol
 //use console to check output
-let hello = 'gangsta'
-console.log(hello);
 
 function computerPlay () {
     let choice = Math.floor(Math.random() * 3);
-    let result = '';
-    if (choice = 0) {result = 'Rock'}
-    else if (choice = 1) {result = 'Paper'}
-    else {result = 'Scissors'}
-    return result;
-    console.log(result);
+    if (choice == 0) {choice = 'Rock'}
+    else if (choice == 1) {choice = 'Paper'}
+    else {choice = 'Scissors'}
+    return choice;
 }
-computerPlay();
-let consoleCheck = computerPlay();
-console.log(consoleCheck);
+
+let play = computerPlay();
+console.log(play);
 
 
 //write function that plays single round of rock paper scissors
