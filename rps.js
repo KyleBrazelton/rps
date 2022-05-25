@@ -1,4 +1,6 @@
 //Create a function called computerPlay
+let hello = 'gangsta'
+console.log(hello);
 //randomly return either 'rock', 'paper', or 'scissors'
 //use console to check output
 
